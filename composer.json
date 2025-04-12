@@ -1,0 +1,24 @@
+{
+    "name": "leonardo/swapi",
+    "description": "Calculos paradas Swapi",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leonardo\\Swapi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Leonardo\\Swapi\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo Lima",
+            "email": "leonardo403@gmail.com"
+        }
+    ]
+}
